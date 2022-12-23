@@ -12,4 +12,14 @@ namespace Exe5_089_Kelompok6
         public Node next;
 
     }
+    class Queue
+    {
+        Node Moh, Illahi;
+
+        public Queue()
+        {
+            Moh = null;
+            Illahi = null;  
+        }
+    }
 }
