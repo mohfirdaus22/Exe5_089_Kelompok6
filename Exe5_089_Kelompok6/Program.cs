@@ -21,7 +21,7 @@ namespace Exe5_089_Kelompok6
             Moh = null;
             Illahi = null;  
         }
-        public void insert()
+        public void Insert()
         {
             string nm;
             Node newnode = new Node();
@@ -38,6 +38,16 @@ namespace Exe5_089_Kelompok6
             Illahi.next = newnode;
             Illahi = newnode;
         }
-
+        public void Delete()
+        {
+            if(Moh == null)
+            {
+                Console.WriteLine("Queue is Empty!!");
+                return;
+            }
+            Moh = Moh.next;
+            if(Moh == null)
+                Illahi=null;
+        }
     }
 }
