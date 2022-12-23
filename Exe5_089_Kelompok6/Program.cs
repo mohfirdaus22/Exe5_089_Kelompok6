@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Exe5_089_Kelompok6
 {
-    internal class Program
+     class Node
     {
-        static void Main(string[] args)
-        {
-        }
+        public string Name;
+        public Node next;
+
     }
 }
