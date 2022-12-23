@@ -82,6 +82,10 @@ namespace Exe5_089_Kelompok6
                     Console.WriteLine();
                     switch (ch)
                     {
+                        case '1':
+                            q.Insert();
+                            break;
+                        
 
                     }
                 }
