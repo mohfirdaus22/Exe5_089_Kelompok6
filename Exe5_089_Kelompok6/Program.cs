@@ -60,5 +60,21 @@ namespace Exe5_089_Kelompok6
             for (display = Moh; display != null; display = display.next)
                 Console.WriteLine(display.name);
         }
+
+    }
+    class program
+    {
+        static void Main(string[] args)
+        {
+            Queue q = new Queue();
+            char ch;
+            while (true)
+            {
+                try
+                {
+
+                }
+            }
+        }
     }
 }
