@@ -72,7 +72,18 @@ namespace Exe5_089_Kelompok6
             {
                 try
                 {
+                    Console.WriteLine("Menu");
+                    Console.WriteLine("1. Implement Insert operation");
+                    Console.WriteLine("2. Implement Delete operation");
+                    Console.WriteLine("3. Display values");
+                    Console.WriteLine("4. Exit");
+                    Console.Write("\n Enter your choice: ");
+                    ch = Convert.ToChar(Console.ReadLine());
+                    Console.WriteLine();
+                    switch (ch)
+                    {
 
+                    }
                 }
             }
         }
