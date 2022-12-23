@@ -49,5 +49,16 @@ namespace Exe5_089_Kelompok6
             if(Moh == null)
                 Illahi=null;
         }
+        public void display()
+        {
+            if(Moh == null)
+            {
+                Console.WriteLine("Queue is Empty !!");
+                return ;
+            }
+            Node display;
+            for (display = Moh; display != null; display = display.next)
+                Console.WriteLine(display.name);
+        }
     }
 }
