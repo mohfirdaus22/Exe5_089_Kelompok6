@@ -100,7 +100,10 @@ namespace Exe5_089_Kelompok6
 
                     }
                 }
-            }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Check for the value entered ");
+                }            }
         }
     }
 }
