@@ -85,7 +85,9 @@ namespace Exe5_089_Kelompok6
                         case '1':
                             q.Insert();
                             break;
-                        
+                        case '2':
+                            q.Delete();
+                            break;
 
                     }
                 }
