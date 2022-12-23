@@ -8,7 +8,7 @@ namespace Exe5_089_Kelompok6
 {
      class Node
     {
-        public string Name;
+        public string name;
         public Node next;
 
     }
@@ -21,5 +21,23 @@ namespace Exe5_089_Kelompok6
             Moh = null;
             Illahi = null;  
         }
+        public void insert()
+        {
+            string nm;
+            Node newnode = new Node();
+            Console.WriteLine("Maukkan Element : ");
+            nm = Console.ReadLine();
+            newnode.name = nm;
+            newnode.next = null;
+            if (Moh == null)
+            {
+                Moh = newnode;
+                Illahi = newnode;
+                return;
+            }
+            Illahi.next = newnode;
+            Illahi = newnode;
+        }
+
     }
 }
